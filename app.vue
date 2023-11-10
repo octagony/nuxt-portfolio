@@ -1,17 +1,11 @@
 <template>
-  <div>
+  <div
+    class="max-w-6xl p-4 mx-auto my-8 font-mavenPro tracking-wide text-5xl font-bold text-gray-100"
+  >
     <NuxtLayout>
-      <header>
-        <ul>
-          <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-        </ul>
-      </header>
       <main>
         <NuxtPage />
       </main>
-      <footer>Footer</footer>
     </NuxtLayout>
   </div>
 </template>

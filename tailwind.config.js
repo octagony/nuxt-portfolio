@@ -9,7 +9,14 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mavenPro: ["Maven Pro", "sans-serif"],
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["black"],
+  },
 }

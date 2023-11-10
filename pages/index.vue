@@ -1,5 +1,4 @@
 <template>
-  <div>
-          <Alert/>
-     </div>
+  <TopCards />
+  <Contacts />
 </template>
