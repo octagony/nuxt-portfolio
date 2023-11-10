@@ -1,0 +1,131 @@
+export default defineEventHandler(async (event) => {
+  return [
+    {
+      id: 1,
+      subtitle: "HR Outsorcing",
+      title: "Clerksy",
+      description:
+        "Clerksy build people operations software for everyday companies. This basic landing page made using only HTML and CSS",
+      tools: ["HTML", "SCSS"],
+      img: "/projectsImages/1.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544072,
+      githubLink: "https://github.com/octagony/ClerksyLanding",
+      websiteLink: "https://octagony.github.io/ClerksyLanding/",
+    },
+    {
+      id: 2,
+      subtitle: "Generate random data for registration",
+      title: "Data Verse",
+      description:
+        "DataVerse is an extension for generating random data needed for quick registration. The extension uses Vue, Typescript and is based on the faker.js library",
+      tools: ["Vue", "Typescript"],
+      img: "/projectsImages/2.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544073,
+      githubLink: "https://github.com/octagony/data-verse",
+      websiteLink:
+        "https://addons.mozilla.org/en-US/firefox/addon/dataverse_extension/",
+    },
+    {
+      id: 3,
+      subtitle: "Crypto Theme",
+      title: "Diplex",
+      description:
+        "Diplex is a platform for investing in cryptocurrencies. This multi-page site is written using SCSS and jQuery. The slick-slider library was used to display slides",
+      tools: ["HTML", "SCSS", "JQuery"],
+      img: "/projectsImages/3.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544074,
+      githubLink: "https://github.com/octagony/diplexSite",
+      websiteLink: "https://octagony.github.io/diplexSite/",
+    },
+    {
+      id: 4,
+      subtitle: "Password Generator",
+      title: "Easy/Pass",
+      description:
+        "Easy/Pass is a platform for generating random passwords of various lengths. I use generate-password library to generate passwords. Next.js is used as the base for the project, and for authorization and saving passwords, Firebase is used.",
+      tools: ["React", "Tailwind", "Next.js", "Firebase", "Typescript"],
+      img: "/projectsImages/4.jpeg",
+      createdAt: 1663138523832,
+      updatedAt: 1663138544075,
+      githubLink: "https://github.com/octagony/random-password-generator",
+      websiteLink:
+        "https://random-password-generator-3qv522ktm-octagony.vercel.app/",
+    },
+    {
+      id: 5,
+      subtitle: "Starter Page",
+      title: "Logoipsum",
+      description: "A simple landing page written using jQuery and Bootstrap",
+      tools: ["HTML", "SCSS", "Bootstrap", "jQuery"],
+      img: "/projectsImages/5.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544076,
+      githubLink: "https://github.com/octagony/Logoipsum",
+      websiteLink: "https://octagony.github.io/Logoipsum/",
+    },
+    {
+      id: 6,
+      subtitle: "Redirect links from youtube to a stable Pipe",
+      title: "Pipe to Piped",
+      description:
+        "Pipe to Piped browser extension redirects YouTube links to Pipe, providing a fast and seamless video viewing experience without distractions and advertisements.",
+      tools: ["HTML", "CSS", "JavaScript"],
+      img: "/projectsImages/6.jpeg",
+      createdAt: 1663138523825,
+      updatedAt: 1663138544077,
+      githubLink: "https://github.com/octagony/firefox-to-piped-extension",
+      websiteLink:
+        "https://addons.mozilla.org/en-US/firefox/addon/pipe-to-piped/",
+    },
+    {
+      id: 7,
+      subtitle: "CLI utility for controlling screen brightness",
+      title: "Rumos",
+      description:
+        "Rumos is a CLI utility for controlling the brightness level of the screen. The utility is written in Rust, covered by tests and uses commands and arguments",
+      tools: ["Rust"],
+      img: "/projectsImages/7.jpeg",
+      createdAt: 1663138523829,
+      updatedAt: 1663138544090,
+      githubLink: "https://github.com/octagony/rumos",
+      websiteLink: "https://github.com/octagony/rumos",
+    },
+    {
+      id: 8,
+      subtitle: "Brand Shop",
+      title: "UGMONK",
+      description:
+        "UGMONK - site dedicated to branded items. This site combines both a landing and an online store at the same time. Uses jQuery, SCSS and Webpack",
+      tools: ["HTML", "SCSS", "Webpack", "jQuery"],
+      img: "/projectsImages/8.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544078,
+      githubLink: "https://github.com/octagony/UGMONK",
+      websiteLink: "https://octagony.github.io/UGMONK/",
+    },
+    {
+      id: 9,
+      subtitle: "Yet Another Notes App",
+      title: "YANA",
+      description:
+        "YANA (stands for Yet Another Notes App) is a standard notepad that uses React in conjunction with Wouter, Firebase, and Zustand. Notes are displayed on the home page both in a grid and in a slider. Additionally, notes can be written in Markdown syntax",
+      tools: [
+        "React",
+        "Typescript",
+        "Tailwind",
+        "Zustand",
+        "Wouter",
+        "Firebase",
+        "React Markdown",
+      ],
+      img: "/projectsImages/9.jpeg",
+      createdAt: 1663138523826,
+      updatedAt: 1663138544078,
+      githubLink: "https://github.com/octagony/YANA",
+      websiteLink: "https://master--y-a-n-a.netlify.app/",
+    },
+  ]
+})
