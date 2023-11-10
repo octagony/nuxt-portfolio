@@ -8,7 +8,9 @@ import { Linkedin, Github, Send } from "lucide-vue-next"
         href="https://www.linkedin.com/in/mihail-rutskiy-7a309323a/"
         class="flex items-center gap-4 justify-center"
         target="_blank"
-        ><Linkedin /><span>Linkedin</span></a
+      >
+        <Icon name="uil:linkedin" />
+        <span>Linkedin</span></a
       >
     </div>
     <div class="col-span-4 bg-primary rounded-xl p-4">
@@ -16,7 +18,9 @@ import { Linkedin, Github, Send } from "lucide-vue-next"
         href="https://github.com/octagony"
         class="flex items-center gap-4 justify-center"
         target="_blank"
-        ><Github /><span>Github</span></a
+      >
+        <Icon name="uil:github" />
+        <span>Github</span></a
       >
     </div>
     <div class="col-span-4 bg-primary rounded-xl p-4">
@@ -24,7 +28,8 @@ import { Linkedin, Github, Send } from "lucide-vue-next"
         href="https://t.me/moctagony"
         target="_blank"
         class="flex items-center gap-4 justify-center"
-        ><Send /><span>Telegram</span></a
+      >
+        <Icon name="uil:telegram" /><span>Telegram</span></a
       >
     </div>
   </div>

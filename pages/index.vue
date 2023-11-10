@@ -2,4 +2,5 @@
   <TopCards />
   <Contacts />
   <Skills />
+  <Projects />
 </template>

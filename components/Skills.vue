@@ -36,7 +36,7 @@
           <Icon name="devicon:reactrouter" />
         </div>
         <div>
-          <Icon name="devicon:jquery" />
+          <Icon name="logos:nestjs" />
         </div>
       </div>
     </div>
