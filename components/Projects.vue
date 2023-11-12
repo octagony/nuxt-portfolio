@@ -5,7 +5,7 @@
     </div>
     <div class="col-span-8 bg-primary rounded-xl">
       <Carousel>
-        <Slide v-for="slide in 10" :key="slide">
+        <Slide v-for="slide in 8" :key="slide">
           <div class="carousel__item">
             <NuxtLink :to="`/projects/${slide}`">
               <img

@@ -12,11 +12,11 @@
         Let's make cool projects <span class="text-blue-300">together</span>
       </p>
       <a
-        class="bg-orange-500 rounded-xl p-2 flex justify-center items-center mt-4 text-2xl"
+        class="bg-orange-500 hover:bg-blue-300 hover:text-primary transition-colors rounded-xl p-2 flex justify-center items-center mt-4 text-2xl"
         href="mailto:mrkwork@yandex.by"
         ><Icon
           name="material-symbols:alternate-email"
-          class="mt-1 mr-4"
+          class="mt-2 mr-2"
         />mrkwork@yandex.by</a
       >
     </div>
