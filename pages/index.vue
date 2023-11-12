@@ -10,12 +10,19 @@ onBeforeMount(() => {
 onMounted(() => {
   showLoader.value = false
 })
+
+useSeoMeta({
+  title: "Mihail Rutskiy | Octagony",
+  description: "Personal portfolio of Mihail Rutskiy (@octagony)",
+})
 </script>
 
 <template>
-  <TopCards />
-  <Contacts />
-  <Skills />
-  <Projects />
-  <About />
+  <div>
+    <TopCards />
+    <Contacts />
+    <Skills />
+    <Projects />
+    <About />
+  </div>
 </template>

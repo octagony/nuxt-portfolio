@@ -1,10 +1,13 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="grid grid-cols-12 gap-2">
+  <div class="grid grid-cols-12 gap-2 text-gray-200">
     <div class="col-span-8 h-[300px] bg-primary rounded-xl p-4">
       <p class="mt-8">
-        <span class="w-full block mb-2 text-blue-300">mihail rutskiy</span> is a
-        frontend-developer
+        <span class="w-full block mb-2 text-blue-300 mt-2">mihail rutskiy</span>
+        is a frontend-developer
+        <span class="block mt-2"
+          ><span class="text-blue-300">24</span> y.o</span
+        >
       </p>
     </div>
     <div class="col-span-4 h-[300px] bg-primary rounded-xl p-4 text-center">
