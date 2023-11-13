@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onBeforeMount, onMounted } from "vue"
+import { ref, onBeforeMount, onMounted } from "vue"
 
 const showLoader = ref<boolean>(true)
 
@@ -11,6 +11,7 @@ onMounted(() => {
   showLoader.value = false
 })
 </script>
+
 <template>
   <Loader v-if="showLoader" />
   <div v-else class="grid">

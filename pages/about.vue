@@ -4,10 +4,7 @@ useSeoMeta({
   description: "Personal portfolio of Mihail Rutskiy (@octagony)",
 })
 </script>
-<template>
-  <section>
-    <NuxtLink to="/">
-      <button class="btn btn-primary rounded-xl text-xl">Go back</button>
+rounded-xl text-xl">Go back</button>
     </NuxtLink>
     <div class="grid grid-cols-12 mt-2 gap-2 text-2xl">
       <div class="col-span-6 bg-primary rounded-xl p-4">
