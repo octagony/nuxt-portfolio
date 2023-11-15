@@ -2,9 +2,12 @@
 <template>
   <div class="grid grid-cols-12 gap-2 text-gray-200">
     <div class="col-span-8 h-[300px] bg-primary rounded-xl p-4">
-      <p class="mt-8">
+      <div class="px-4">
+        <Icon name="bi:octagon" size="80" class="animate-rotate" />
+      </div>
+      <p class="mt-2">
         <span class="w-full block mb-2 text-blue-300 mt-2">mihail rutskiy</span>
-        is a frontend-developer
+        frontend-developer
         <span class="block mt-2"
           ><span class="text-blue-300">24</span> y.o</span
         >

@@ -1,6 +1,3 @@
-<script setup lang="ts">
-import { Linkedin, Github, Send } from "lucide-vue-next"
-</script>
 <template>
   <div class="grid grid-cols-12 mt-2 gap-2 text-3xl">
     <div
