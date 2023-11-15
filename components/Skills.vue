@@ -1,42 +1,25 @@
+<script setup lang="ts">
+const skills = [
+  { name: "React", icon: "devicon:react" },
+  { name: "Vue", icon: "devicon:vuejs" },
+  { name: "Nextjs", icon: "logos:nextjs-icon" },
+  { name: "Nuxtjs", icon: "devicon:nuxtjs" },
+  { name: "Typescript", icon: "logos:typescript-icon" },
+  { name: "TailwindCSS", icon: "devicon:tailwindcss" },
+  { name: "Astro", icon: "vscode-icons:file-type-astro" },
+  { name: "Pinia", icon: "logos:pinia" },
+  { name: "Redux", icon: "logos:redux" },
+  { name: "Firebase", icon: "vscode-icons:file-type-firebase" },
+  { name: "React Router", icon: "devicon:reactrouter" },
+  { name: "Nestjs", icon: "logos:nestjs" },
+]
+</script>
 <template>
   <div class="grid grid-cols-12 gap-2 mt-2">
     <div class="col-span-4 h-[200px] bg-primary rounded-xl p-4">
       <div class="grid grid-cols-4 gap-1 place-items-center">
-        <div>
-          <Icon name="devicon:react" />
-        </div>
-        <div>
-          <Icon name="devicon:vuejs" />
-        </div>
-        <div>
-          <Icon name="logos:nextjs-icon" />
-        </div>
-        <div>
-          <Icon name="devicon:nuxtjs" />
-        </div>
-        <div>
-          <Icon name="logos:typescript-icon" />
-        </div>
-        <div>
-          <Icon name="devicon:tailwindcss" />
-        </div>
-        <div>
-          <Icon name="vscode-icons:file-type-astro" />
-        </div>
-        <div>
-          <Icon name="logos:pinia" />
-        </div>
-        <div>
-          <Icon name="logos:redux" />
-        </div>
-        <div>
-          <Icon name="vscode-icons:file-type-firebase" />
-        </div>
-        <div>
-          <Icon name="devicon:reactrouter" />
-        </div>
-        <div>
-          <Icon name="logos:nestjs" />
+        <div v-for="skill in skills" :key="skill.name">
+          <Icon :name="skill.icon" />
         </div>
       </div>
     </div>

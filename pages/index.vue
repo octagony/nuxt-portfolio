@@ -18,7 +18,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>
+  <div class="text-3xl">
     <TopCards />
     <Contacts />
     <Skills />
