@@ -5,11 +5,11 @@ useSeoMeta({
 })
 </script>
 <template>
-  <section class="leading-8">
+  <section class="leading-10">
     <NuxtLink to="/">
       <button class="bg-primary rounded-xl p-4 text-lg">go back</button>
     </NuxtLink>
-    <div class="grid grid-cols-12 mt-2 gap-2 text-5xl">
+    <div class="grid grid-cols-12 mt-2 gap-2">
       <div class="col-span-8 bg-primary rounded-xl p-4">
         So, my name is <span class="text-blue-300">Mikhail</span>. I was born in
         Belarus, and now I live in
